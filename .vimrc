@@ -10,6 +10,7 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'ajh17/VimCompletesMe'
 
 
 call vundle#end()
