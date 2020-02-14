@@ -6,12 +6,16 @@ PS1="%B%{$fg[cyan]%}[%{$fg[cyan]%}%n%{$fg[cyan]%}@%{$fg[cyan]%}%M %{$fg[cyan]%}%
 export VISUAL=vim
 export EDITOR="$VISUAL"
 
-# Example aliases
-alias lesson="cd /home/shv/lessons/shell-lessons/"
-alias lesson2="cd /home/shv/lessons/shell-lessons2/"
-alias ls='ls --color=auto'
+# aliases
 alias grep='grep --color=auto'
-alias diff='diff --color auto'
+alias ls='ls --color=auto'
+cf() {
+	cd /home/shv/contrib/fff/
+}
+pacs() {
+	sudo pacman -S $@
+}
+
 
 # History in cache directory:
 HISTSIZE=10000
