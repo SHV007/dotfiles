@@ -12,6 +12,23 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'ajh17/VimCompletesMe'
 
+" getting out of the comfort zone
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+inoremap <Up> <NOP>
+inoremap <Down> <NOP>
+inoremap <Left> <NOP>
+inoremap <Right> <NOP>
+vnoremap h <NOP>
+vnoremap j <NOP>
+vnoremap k <NOP>
+vnoremap l <NOP>
+noremap h <NOP>
+noremap j <NOP>
+noremap k <NOP>
+noremap l <NOP>
 
 call vundle#end()
 filetype plugin indent on
@@ -20,7 +37,6 @@ filetype plugin indent on
 set number
 set showcmd
 syntax on
-colorscheme murphy
 set clipboard=unnamed
 
 " tabs and indentation
