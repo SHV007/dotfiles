@@ -60,4 +60,6 @@ inoremap <Down> <NOP>
 inoremap <Left> <NOP>
 inoremap <Right> <NOP>
 
-
+" spell checking
+map <F5> :setlocal spell! spelllang=en_us<CR>
+inoremap <F5> <C-\><C-O>:setlocal spelllang=en_us spell! spell?<CR>
