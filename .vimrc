@@ -12,6 +12,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'ajh17/VimCompletesMe'
 
+
 call vundle#end()
 filetype plugin indent on
 
@@ -24,9 +25,16 @@ set clipboard=unnamed
 " tabs and indentation
 set ts=4
 set autoindent
+set si
+set shiftwidth=4
+" Java anonymous classes:
+set cinoptions+=j1
 
 " python highlight
 let python_highlight_all = 1
+
+" disable autocomment
+set formatoptions-=cro
 
 " folding 
 set foldmethod=indent
