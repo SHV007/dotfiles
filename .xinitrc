@@ -6,7 +6,7 @@ xrandr --output VGA1 --right-of HDMI1 &
 # autostart programs
 numlockx &
 xautolock -time 20 -locker slock &
-xcompmgr -c -o.85 &
+xcompmgr -c -o &
 xwallpaper --maximize ~/pics/wall/anime-girl-reading-summer-clouds-scenic-short-hair.jpg 
 
 # statusbar clock
