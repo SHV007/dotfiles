@@ -1,19 +1,13 @@
 #!/bin/sh
 
-#startupsound
-sudo nice -n -19 mpv /usr/share/sounds/intel-sound &
-
 # xrandr
 xrandr --output VGA1 --right-of HDMI1 &
 
 # autostart programs
 numlockx &
-flameshot &
 xautolock -time 20 -locker slock &
-nitrogen --restore &
-
-# merge xresources with xinitrc
-[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+xcompmgr -c -o.85 &
+xwallpaper --maximize ~/pics/wall/anime-girl-reading-summer-clouds-scenic-short-hair.jpg 
 
 # statusbar clock
 while true; do

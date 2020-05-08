@@ -21,6 +21,7 @@ set number
 set showcmd
 syntax on
 set clipboard=unnamed
+colorscheme desert
 
 " tabs and indentation
 set ts=4
